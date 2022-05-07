@@ -32,7 +32,7 @@ const Planets = () => {
 
 					{
 						planets?.results.map((planet, index) => (
-								<Link key={index} to = {`/planets/${index+1}`} className='item-col'>
+								<Link key={index} to = {`/planets/${10 * page + index + 1}`} className='item-col'>
 									<div className="element-item">
 										<img src={`https://starwars-visualguide.com/assets/img/planets/${10 * page + index + 1}.jpg`}
 											 alt=""
