@@ -20,7 +20,7 @@ const PlanetInfo = () => {
 	return (
 			<div className='element-item'>
 				<img src={`https://starwars-visualguide.com/assets/img/planets/${slug}.jpg`}
-					 alt="photo"
+					 alt=""
 					 className='element-img img'/>
 				<div className='element-info'>
 

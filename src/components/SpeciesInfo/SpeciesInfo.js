@@ -23,7 +23,7 @@ const SpeciesInfo = () => {
 	return (
 			<div className='element-item'>
 				<img src={`https://starwars-visualguide.com/assets/img/species/${slug}.jpg`}
-					 alt="photo"
+					 alt=""
 					 className='element-img img'/>
 				<div className='element-info'>
 

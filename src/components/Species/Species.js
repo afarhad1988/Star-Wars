@@ -35,7 +35,7 @@ const Species = () => {
 								<Link key={index} to = {`/species/${index+1}`} className='item-col'>
 									<div className="element-item">
 										<img src={`https://starwars-visualguide.com/assets/img/species/${10 * page + index + 1}.jpg`}
-											 alt="photo"
+											 alt=""
 											 className='element-img'/>
 										<h5 className='element-title'>{view.name}</h5>
 

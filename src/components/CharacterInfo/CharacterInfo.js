@@ -22,7 +22,7 @@ const CharacterInfo = () => {
 
 			<div className='element-item'>
 				<img src={`https://starwars-visualguide.com/assets/img/characters/${slug}.jpg`}
-					 alt="photo"
+					 alt=""
 					 className='element-img img'/>
 				<div className='element-info'>
 

@@ -27,7 +27,7 @@ const Films = () => {
 
 									<div className="element-item">
 										<img src={`https://starwars-visualguide.com/assets/img/films/${index + 1}.jpg`}
-											 alt="photo"
+											 alt=""
 											 className='element-img'/>
 										<h5 className='element-title'>{film.title}</h5>
 									</div>

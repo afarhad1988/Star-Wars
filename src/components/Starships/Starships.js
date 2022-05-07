@@ -35,7 +35,7 @@ const Starships = () => {
 
 									<div className="element-item">
 										<img src={`https://starwars-visualguide.com/assets/img/starships/${10 * page + index + 1}.jpg`}
-											 alt="photo"
+											 alt=""
 											 className='element-img'/>
 										<h5 className='element-title'>{starship.name}</h5>
 

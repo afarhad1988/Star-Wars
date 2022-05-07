@@ -21,7 +21,7 @@ const VehiclesInfo = () => {
 	return (
 			<div className='element-item'>
 				<img src={`https://starwars-visualguide.com/assets/img/vehicles/${slug}.jpg`}
-					 alt="photo"
+					 alt=""
 					 className='element-img img'/>
 				<div className='element-info'>
 					<ul>
