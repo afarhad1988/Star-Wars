@@ -1,0 +1,57 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+
+.category-item {
+    position: relative;
+}
+
+.category-item img {
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+.name-category {
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    background-color: rgba(0, 0, 0, .4);
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.characters {
+    color: #E43935;
+}
+
+.films {
+    color: #FFEE58;
+}
+
+.species {
+    color: #F4511E;
+}
+
+.starships {
+    color: white;
+}
+
+.vehicles {
+    color: #90CAF9;
+}
+
+.planets {
+    color: #FFEE58;
+}
